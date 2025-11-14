@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sibtain Khan Portfolio</title>
+    <meta name="description" content="Portfolio of Sibtain Abbas Shigri - web designer, developer and ethical hacker" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div style="display: flex;" class="logo"><img style="width: 40px; border-radius: 20%;" src="img/sk.PNG" alt="">
+        </div>
+        <ul id="nav-links" role="menubar" aria-label="Main Navigation">
+            <li role="none"><a href="#home" role="menuitem" class="active">Home</a></li>
+            <li role="none"><a href="#about" role="menuitem">About</a></li>
+            <li role="none"><a href="#skills" role="menuitem">Skills</a></li>
+            <li role="none"><a href="#services" role="menuitem">Services</a></li>
+            <li role="none"><a href="#projects" role="menuitem">Projects</a></li>
+            <li role="none"><button class="contact-btn"
+                    onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">Contact</button>
+            </li>
+        </ul>
+
+        <div class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false" role="button"
+            tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="header-content">
+            <div class="intro-left fade-in-left">
+                <h1>Hi, I'm <br>Sibtain Abbas Shigri</h1>
+                <p class="description">Passionate and skilled professional with expertise in web and graphic design,
+                    ethical hacking, and software development. Dedicated to crafting beautiful, secure, and functional
+                    digital experiences.</p>
+                <div class="btn-group">
+                    <a href="https://drive.google.com/file/d/1K0DE6NLMRbvdm62mTge4ZgS1Qy0dIXMG/view?usp=drive_link"
+                        target="_blank" rel="noopener noreferrer">Resume</a>
+                    <a class="secondary" href="https://github.com/SKlearn1914" target="_blank"
+                        rel="noopener noreferrer">GitHub</a>
+                </div>
+            </div>
+            <div class="intro-right fade-in-right">
+                <img src="img/img.jpg" alt="Photo of Sibtain Khan" />
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <p>Hello! I am Sibtain Abbas Shigri, a versatile developer and designer with a passion for creating beautiful
+            and efficient digital solutions. Skilled in web design, graphic design, ethical hacking, and software
+            development, I strive to deliver excellence in every project I undertake.</p>
+    </section>
+
+    <section id="skills" class="fade-in">
+        <h2>Skills</h2>
+        <div class="skills-container" id="skills-container">
+            <div class="skill">
+                <div style="display:flex;align-items:center;justify-content:space-between">
+                    <div class="skill-name">Web Development</div>
+                    <div class="percent">80%</div>
+                </div>
+                <div class="meter-3d" aria-hidden="true"><span data-value="80"></span></div>
+            </div>
+            <div class="skill">
+                <div style="display:flex;align-items:center;justify-content:space-between">
+                    <div class="skill-name">Microsoft Office Specialist</div>
+                    <div class="percent">95%</div>
+                </div>
+                <div class="meter-3d" aria-hidden="true"><span data-value="95"></span></div>
+            </div>
+            <div class="skill">
+                <div style="display:flex;align-items:center;justify-content:space-between">
+                    <div class="skill-name">Python Developer</div>
+                    <div class="percent">75%</div>
+                </div>
+                <div class="meter-3d" aria-hidden="true"><span data-value="75"></span></div>
+            </div>
+            <div class="skill">
+                <div style="display:flex;align-items:center;justify-content:space-between">
+                    <div class="skill-name">Kali Linux Expertise</div>
+                    <div class="percent">75%</div>
+                </div>
+                <div class="meter-3d" aria-hidden="true"><span data-value="75"></span></div>
+            </div>
+            <div class="skill">
+                <div style="display:flex;align-items:center;justify-content:space-between">
+                    <div class="skill-name">C++ Developer</div>
+                    <div class="percent">78%</div>
+                </div>
+                <div class="meter-3d" aria-hidden="true"><span data-value="78"></span></div>
+            </div>
+            <div class="skill">
+                <div style="display:flex;align-items:center;justify-content:space-between">
+                    <div class="skill-name">Graphic Design</div>
+                    <div class="percent">90%</div>
+                </div>
+                <div class="meter-3d" aria-hidden="true"><span data-value="90"></span></div>
+            </div>
+            <div class="skill">
+                <div style="display:flex;align-items:center;justify-content:space-between">
+                    <div class="skill-name">Ethical Hacking</div>
+                    <div class="percent">85%</div>
+                </div>
+                <div class="meter-3d" aria-hidden="true"><span data-value="85"></span></div>
+            </div>
+            <div class="skill">
+                <div style="display:flex;align-items:center;justify-content:space-between">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="percent">88%</div>
+                </div>
+                <div class="meter-3d" aria-hidden="true"><span data-value="88"></span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <h2>Projects</h2>
+        <div class="projects-grid" id="projects-grid">
+            <div class="project-card">
+                <div class="project-title">Stock Portfolio Tracer Dashboard</div>
+                <div class="project-desc">Real-time analytics dashboard with data visualization, custom reports, and
+                    performance metrics.
+                </div>
+                <div class="project-links"><a href="https://sklearn1914.github.io/Stock-Portfolio-Tracer/">View</a><a
+                        href="https://github.com/SKlearn1914/Stock-Portfolio-Tracer">Code</a></div>
+            </div>
+            <div class="project-card">
+                <div class="project-title">Budget and Daily Expense Tracker</div>
+                <div class="project-desc">A simple app to track daily expenses and manage budgets, with features like
+                    expense categorization and data visualization. Built with React and Chart.js, showcasing my skills
+                    in financial tracking and interactive UI design.
+                </div>
+                <div class="project-links"><a href="https://sklearn1914.github.io/Daily-Expense-Tracker/">View</a><a
+                        href="https://github.com/SKlearn1914/Daily-Expense-Tracker">Code</a></div>
+            </div>
+            <div class="project-card">
+                <div class="project-title">Student Management System</div>
+                <div class="project-desc">Collaborative project management tool with kanban boards, team collaboration,
+                    and time tracking.</div>
+                <div class="project-links"><a href="https://sklearn1914.github.io/Student-Management-System/">View</a><a
+                        href="https://github.com/SKlearn1914/Student-Management-System">Code</a></div>
+            </div>
+            <div class="project-card">
+                <div class="project-title">Portfolio Generator Website</div>
+                <div class="project-desc">Generate Modern portfolio website with smooth animations, blog integration,
+                    and contact forms.</div>
+                <div class="project-links"><a href="https://sklearn1914.github.io/Portfolio-Generator/">View</a><a
+                        href="https://github.com/SKlearn1914/Portfolio-Generator">Code</a></div>
+            </div>
+            <div class="project-card">
+                <div class="project-title">Event Planner Website</div>
+                <div class="project-desc">A user-friendly app for planning and managing events, offering features like
+                    guest list management, scheduling, budgeting, and task tracking.</div>
+                <div class="project-links"><a href="https://sklearn1914.github.io/Event-Planner-/">View</a><a
+                        href="https://github.com/SKlearn1914/Event-Planner-">Code</a></div>
+            </div>
+            <div class="project-card">
+                <div class="project-title">E-Commerce Platform</div>
+                <div class="project-desc">A full-featured online shopping platform with payment integration, product
+                    management, and user authentication.</div>
+                <div class="project-links"><a href="https://sklearn1914.github.io/ECommerce-Mini/">View</a><a
+                        href="https://github.com/SKlearn1914/ECommerce-Mini">Code</a></div>
+            </div>
+            <div class="project-card">
+                <div class="project-title">Notes — Voice Input Website
+                </div>
+                <div class="project-desc">Notes — Voice Input Website allows users to convert voice into text and vice
+                    versa, enabling easy and efficient note-taking. Simply speak to create or listen to your notes
+                    hands-free.</div>
+                <div class="project-links"><a
+                        href="https://sklearn1914.github.io/Notes-App-With-Voice-Input/">View</a><a
+                        href="https://github.com/SKlearn1914/Notes-App-With-Voice-Input">Code</a></div>
+            </div>
+
+
+
+
+
+            <div class="project-card">
+                <div class="project-title">
+                </div>
+                <div class="project-desc"></div>
+                <div class="project-links"><a href="">View</a><a href="">Code</a></div>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-title">Inventory Manager Website
+                </div>
+                <div class="project-desc">Inventory Manager is a web application that helps businesses track, manage,
+                    and organize their stock efficiently. It provides real-time updates, easy product management, and
+                    streamlined reporting to ensure optimal inventory control.</div>
+                <div class="project-links"><a href="https://sklearn1914.github.io/Inventory-Manager/">View</a><a
+                        href="https://github.com/SKlearn1914/Inventory-Manager">Code</a></div>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-title">Daily Habit Tracker Project
+                </div>
+                <div class="project-desc">Daily Habit Tracker is a web application that helps users build and maintain
+                    positive habits by tracking daily activities, setting goals, and visualizing progress over time.
+                </div>
+                <div class="project-links"><a href="https://sklearn1914.github.io/Daily-Habit-Tracker/">View</a><a
+                        href="https://github.com/SKlearn1914/Daily-Habit-Tracker">Code</a></div>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-title">Invoice-Generator-Project
+                </div>
+                <div class="project-desc">Invoice Generator is a tool that allows businesses to create professional
+                    invoices quickly and easily. Users can customize details, calculate totals, and generate
+                    downloadable invoices in a few simple steps.</div>
+                <div class="project-links"><a href="https://sklearn1914.github.io/Invoice-Generator-Project/">View</a><a
+                        href="https://github.com/SKlearn1914/Invoice-Generator-Project">Code</a></div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-title"> Job Application Tracker Project
+                </div>
+                <div class="project-desc">Job Application Tracker is a web application that helps job seekers organize
+                    and track their applications. It allows users to monitor application statuses, deadlines, and
+                    follow-ups for a more efficient job search.</div>
+                <div class="project-links"><a href="https://sklearn1914.github.io/Job-Application-Tracker/">View</a><a
+                        href="https://github.com/SKlearn1914/Job-Application-Tracker">Code</a></div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-title">Loan Manager Project
+                </div>
+                <div class="project-desc">Loan Manager is a web application designed to help users manage and track loan
+                    details, including loan amounts, interest rates, payment schedules, and outstanding balances. It
+                    provides clear insights to ensure timely payments and effective loan management.</div>
+                <div class="project-links"><a href="https://sklearn1914.github.io/Loan-Manager/">View</a><a
+                        href="https://github.com/SKlearn1914/Loan-Manager">Code</a></div>
+            </div>
+        </div>
+        <div class="projects-nav" id="projects-nav"></div>
+    </section>
+
+    <section id="services" class="fade-in">
+        <h2>Services</h2>
+        <div class="services-list">
+            <div class="service-card">
+                <div class="service-title">Web Development</div>
+                <div class="service-desc muted">Crafting fullStack responsive and attractive websites tailored to your
+                    needs.
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-title">Graphic Design</div>
+                <div class="service-desc muted">Creating stunning logos, banners, and visuals that stand out.</div>
+            </div>
+            <div class="service-card">
+                <div class="service-title">Ethical Hacking</div>
+                <div class="service-desc muted">Ensuring your digital security through comprehensive penetration
+                    testing.</div>
+            </div>
+            <div class="service-card">
+                <div class="service-title">Software Development</div>
+                <div class="service-desc muted">Building efficient and scalable software solutions for your business.
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-title">CV & Proposal Writing</div>
+                <div class="service-desc muted">Turn ideas into clean, efficient, and user-friendly digital solutions
+                    that truly solve problems.
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-title">Online Programming Teaching</div>
+                <div class="service-desc muted">Help students learn with clarity and confidence through engaging and
+                    easy-to-understand online lessons.
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-title">Assignment Writng</div>
+                <div class="service-desc muted">Assist students in crafting high-quality, well-researched assignments
+                    that meet academic standards and boost their confidence.
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-title">Article Writng</div>
+                <div class="service-desc muted">Deliver well-crafted, engaging, and SEO-friendly articles that inform,
+                    inspire, and connect with your audience.
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input id="name" name="user_name" type="text" required placeholder="Your name" />
+
+            <label for="email">Email</label>
+            <input id="email" name="user_email" type="email" required placeholder="Your email" />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Your message"></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer id="footer" class="fade-in">
+        <h2>Connect With Me</h2>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/sibtain-abbas-shigri-106a63386" target="_blank"
+                class="linkedin">LinkedIn</a>
+            <a href="https://www.instagram.com/sibtainkhan1914?utm_source=qr&igsh=MTR2YWRqaWR4MDZzYw==" target="_blank"
+                class="instagram">Instagram</a>
+            <a href="mailto:sk1992201914@gmail.com" class="email">Email</a>
+            <a href="www.github.com/sklearn1914/" target="_blank" class="github">GitHub</a>
+        </div>
+
+        <p class="copyright">
+            © 2025 Sibtain Abbas Shigri • All Rights Reserved
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
