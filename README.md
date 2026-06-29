@@ -10,7 +10,7 @@
 <img src="https://github.com/SKlearn1914/Portfolio/blob/main/animation_500_kxa883sd.gif?raw=true" alt="Banner" />
 </p>
 
-<h3 align="center">Full-Stack Web Developer · MERN · Full-stack · AI,ML,OpenCV · CyberSecurity · </h3>
+<h3 align="center">Full-Stack WebDev · MERN · AI,ML,OpenCV · CyberSecurity Expert · Wintel Engineer · MOS · Python Developer </h3>
 
 ---
 
