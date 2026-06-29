@@ -28,7 +28,7 @@
 
 ---
 
-## 🏔️ Featured Project – Quran Academy Website
+##  Featured Project – Quran Academy Website
 
 A **production‑ready tour booking platform** built with **HTML,CSS,JS**, **NodeJS**, **Tailwind CSS**, **ExpressJS**,**Nodemailer**.  
 ➡️ **[Live Demo]()**  
@@ -59,6 +59,7 @@ A **production‑ready tour booking platform** built with **HTML,CSS,JS**, **Nod
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-563D7C?style=for-the-badge&logo=figma&logoColor=white)
 
 ### Backend & Database
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -69,6 +70,7 @@ A **production‑ready tour booking platform** built with **HTML,CSS,JS**, **Nod
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
 ![Microsoft Office](https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali-Linux-563D7C?style=for-the-badge&logo=kali&logoColor=white)
 
 ---
 
