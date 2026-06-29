@@ -34,10 +34,6 @@ A **production‑ready tour booking platform** built with **HTML,CSS,JS**, **Nod
 ➡️ **[Live Demo]()**  
 ➡️ **[GitHub Repo](https://github.com/SKlearn1914/Quran-Academy)**
 
-<p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Add+Screenshot+Here" alt="Karakoram Tours Homepage" width="600"/>
-</p>
-
 **Tech Used:** HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, Tailwind CSS, Nodemailer, Bcrypt, Git
 
 * ✅ Student enrollment and registration system
